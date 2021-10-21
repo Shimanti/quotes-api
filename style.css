@@ -23,6 +23,7 @@ Layout
   display: flex;
   flex-direction: column;
   align-items: stretch;
+
 }
 
 button {
@@ -42,7 +43,7 @@ button {
 
 button:hover,
 button:focus  {
-  background-color: lightgrey;
+  background-color: darkgreen;
 }
 
 i {

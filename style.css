@@ -20,6 +20,7 @@ Layout
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-weight: 600;
 }
 
 button {
@@ -28,13 +29,10 @@ button {
   border-radius: .75rem;
   color: #f8f8f8;
   cursor: pointer;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.5rem;
-  padding: .75rem 1.2rem;
+  font-size: 1rem;
+  padding: .5rem 1rem;
   text-align: center;
   text-decoration: none #6B7280 solid;
-  margin: 0 auto;
 }
 
 button:hover,
@@ -48,7 +46,6 @@ i {
 
 p#quote, p#author {
   font-size: 1.5rem;
-  font-weight: 600;
   line-height: 1.5rem;
   padding: .75rem;
 }
@@ -56,12 +53,9 @@ p#quote, p#author {
 @media (min-width:768px) {
   button{
       max-width: 600px;
-      font-size: 2rem;
+      font-size: 1.5rem;
   }
   p#quote, p#author {
-      font-size: 2rem;
-  }
-  i {
-      font-size: 2rem;
+      font-size: 1.5rem;
   }
 }

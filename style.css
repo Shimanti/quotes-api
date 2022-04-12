@@ -14,8 +14,13 @@ Layout
 *********************** */
 
 .container {
-  margin: 5% auto;
-  height: 100vh;
+  padding: 5%;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
@@ -35,9 +40,9 @@ button:focus  {
   background-color: darkgreen;
 }
 
-/* i {
+i {
   padding: .5rem;
-} */
+}
 
 p#quote, p#author {
   font-size: 1rem;

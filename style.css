@@ -13,6 +13,14 @@ body {
 Layout
 *********************** */
 
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 button {
   background-color: navy;
   border: 1px solid transparent;
@@ -41,10 +49,10 @@ p#quote, p#author {
 @media (min-width:768px) {
   button{
       max-width: 600px;
-      font-size: 1.1rem;
-      padding: .5rem 1.1rem;
+      font-size: 1.5rem;
+      padding: .5rem 1.5rem;
   }
   p#quote, p#author {
-      font-size: 1.1rem;
+      font-size: 1.5rem;
   }
 }

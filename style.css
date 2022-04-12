@@ -14,8 +14,7 @@ Layout
 *********************** */
 
 .container {
-  height: 100vh;
-  margin: 10% auto;
+  padding: 10%;
 }
 
 button {

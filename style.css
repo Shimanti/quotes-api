@@ -12,20 +12,11 @@ Layout
 *********************** */
 
 .container {
-  height: 100vh;
   max-width: 900px;
   width: 80%;
   margin: 0 auto;
   padding-top: 10%;
 }
-
-/* .container-center {
-  min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-
-} */
 
 button {
   background-color: navy;
@@ -60,17 +51,14 @@ p#quote, p#author {
 
 @media (min-width:768px) {
   button{
-      max-width: 700px;
-      font-size: 2.5rem;
-      line-height: 2em;
-      padding: 1.5rem 2rem;
+      max-width: 600px;
+      font-size: 2rem;
+      padding: 1rem 2rem;
   }
   p#quote, p#author {
       font-size: 2rem;
-      line-height: 1rem;
   }
   i {
-    font-size: 2rem;
-    padding: 2rem 1.2rem;
+      font-size: 2rem;
   }
 }

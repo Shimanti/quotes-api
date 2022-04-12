@@ -43,7 +43,7 @@ button:focus  {
 }
 
 i {
-  padding: 1.2rem;
+  padding: 1rem;
 }
 
 p#quote, p#author {
@@ -57,7 +57,6 @@ p#quote, p#author {
   button{
       max-width: 600px;
       font-size: 2rem;
-      padding: 1rem 2rem;
   }
   p#quote, p#author {
       font-size: 2rem;

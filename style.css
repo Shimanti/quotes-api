@@ -30,9 +30,9 @@ button:focus  {
   background-color: darkgreen;
 }
 
-i {
+/* i {
   padding: .5rem;
-}
+} */
 
 p#quote, p#author {
   font-size: 1rem;
@@ -41,10 +41,10 @@ p#quote, p#author {
 @media (min-width:768px) {
   button{
       max-width: 600px;
-      font-size: 1.25rem;
-      padding: .5rem 1.25rem;
+      font-size: 1.1rem;
+      padding: .5rem 1.1rem;
   }
   p#quote, p#author {
-      font-size: 1.25rem;
+      font-size: 1.1rem;
   }
 }

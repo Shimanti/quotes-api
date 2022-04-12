@@ -1,5 +1,5 @@
 # Inspirational Quotes
 Inspirational quotes using a public api
 
-## run
+## Run
 https://shimanti-quotes.netlify.app
